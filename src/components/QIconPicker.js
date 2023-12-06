@@ -158,7 +158,7 @@ function useIconPickerIcons(data, props, computedFirstItemIndex, computedLastIte
       }
       else {
         try {
-          data.iconsList = require(`@quasar/quasar-ui-qiconpicker/src/components/icon-set/${ iconSet }.js`).default.icons
+          data.iconsList = require(`lw_iconpicker/src/components/icon-set/${ iconSet }.js`).default.icons
         }
         catch (e) {
           console.error(`QIconPicker: cannot find icon set found called ${ iconSet }`)
