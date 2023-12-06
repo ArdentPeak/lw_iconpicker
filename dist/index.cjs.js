@@ -1,5 +1,5 @@
 /*!
- * lw2_iconpicker v2.0.9
+ * lw_iconpicker v2.0.11
  * (c) 2023 Jeff Galbraith <jeff@quasar.dev>
  * Released under the MIT License.
  */
@@ -166,7 +166,7 @@ function useIconPickerIcons(data, props, computedFirstItemIndex, computedLastIte
       }
       else {
         try {
-          data.iconsList = require(`@quasar/quasar-ui-qiconpicker/src/components/icon-set/${ iconSet }.js`).default.icons;
+          data.iconsList = require(`lw_iconpicker/src/components/icon-set/${ iconSet }.js`).default.icons;
         }
         catch (e) {
           console.error(`QIconPicker: cannot find icon set found called ${ iconSet }`);
@@ -551,7 +551,7 @@ var QIconPicker = vue.defineComponent({
   }
 });
 
-const version = '2.0.9';
+const version = '2.0.11';
 
 function install (app) {
   app.component(QIconPicker.name, QIconPicker);
