@@ -1,5 +1,5 @@
 /*!
- * @quasar/quasar-ui-qiconpicker v2.0.9
+ * lw2_iconpicker v2.0.9
  * (c) 2023 Jeff Galbraith <jeff@quasar.dev>
  * Released under the MIT License.
  */

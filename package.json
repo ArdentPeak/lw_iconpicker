@@ -1,5 +1,5 @@
 {
-  "name": "@quasar/quasar-ui-qiconpicker",
+  "name": "lw2_iconpicker",
   "version": "2.0.9",
   "author": "Jeff Galbraith <jeff@quasar.dev>",
   "description": "QIconPicker - Quasar component",
