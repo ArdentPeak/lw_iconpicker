@@ -7,7 +7,7 @@ export {
   QIconPicker
 }
 
-//John
+//John1
 
 export default {
   version,
