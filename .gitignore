@@ -5,6 +5,9 @@ ui/yarn.lock
 ui/node_modules
 ui/dev/yarn.lock
 ui/dev/node_modules
+node_modules
+yarn.lock
+
 
 demo/yarn.lock
 demo/node_modules
