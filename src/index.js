@@ -7,6 +7,8 @@ export {
   QIconPicker
 }
 
+//John
+
 export default {
   version,
   QIconPicker,
