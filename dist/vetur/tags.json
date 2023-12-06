@@ -1,0 +1,25 @@
+{
+  "q-icon-picker": {
+    "attributes": [
+      "value",
+      "icon-set",
+      "icons",
+      "filter",
+      "tags",
+      "dense",
+      "tooltips",
+      "no-footer",
+      "color",
+      "text-color",
+      "selected-color",
+      "selected-text-color",
+      "size",
+      "model-pagination",
+      "pagination-props",
+      "animated",
+      "transition-prev",
+      "transition-next"
+    ],
+    "description": ""
+  }
+}

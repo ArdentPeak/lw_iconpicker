@@ -1,0 +1,74 @@
+{
+  "q-icon-picker/value": {
+    "type": "string",
+    "description": "`v-model`; The selected icon"
+  },
+  "q-icon-picker/icon-set": {
+    "type": "string",
+    "description": "The name of a [Quasar Icon Set](https://quasar.dev/options/quasar-icon-sets)"
+  },
+  "q-icon-picker/icons": {
+    "type": "array",
+    "description": "An array of objects containing icon information. The object must contain the key `name` with the value being the icon name (ie: `{ name: 'bolt' }`). _**Note:** the icons used must already be loaded by Quasar._"
+  },
+  "q-icon-picker/filter": {
+    "type": "string",
+    "description": "Icons will be filtered by the passed string"
+  },
+  "q-icon-picker/tags": {
+    "type": "array",
+    "description": "An array of tags to be used to do filtering by category"
+  },
+  "q-icon-picker/dense": {
+    "type": "boolean",
+    "description": "Use less of a foot print for the component"
+  },
+  "q-icon-picker/tooltips": {
+    "type": "boolean",
+    "description": "Turns tooltips on for each displayed icon (shows the icon name)"
+  },
+  "q-icon-picker/no-footer": {
+    "type": "boolean",
+    "description": "hides the footer area when `pagination` is enabled"
+  },
+  "q-icon-picker/color": {
+    "type": "string",
+    "description": "Any color from the [Quasar Color Pallete](https://quasar.dev/style/color-palette)"
+  },
+  "q-icon-picker/text-color": {
+    "type": "string",
+    "description": "Any color from the [Quasar Color Pallete](https://quasar.dev/style/color-palette)"
+  },
+  "q-icon-picker/selected-color": {
+    "type": "string",
+    "description": "Any color from the [Quasar Color Pallete](https://quasar.dev/style/color-palette)"
+  },
+  "q-icon-picker/selected-text-color": {
+    "type": "string",
+    "description": "Any color from the [Quasar Color Pallete](https://quasar.dev/style/color-palette)"
+  },
+  "q-icon-picker/size": {
+    "type": "string",
+    "description": "Size in CSS units, including unit name or standard size name (xs|sm|md|lg|xl)"
+  },
+  "q-icon-picker/model-pagination": {
+    "type": "object",
+    "description": "For pagination purposes uses Quasar's pagination component. Use `v-model:model-pagination` to synchronize the data. You can use `page` and `itemsPerPage` to control the pagination. QIconPicker will set `totalPages` depending on `icon-set` or `icons` properties. If using a `filter` the page will automatically be reset to 1"
+  },
+  "q-icon-picker/pagination-props": {
+    "type": "object",
+    "description": "The properties to pass to the QPagination component"
+  },
+  "q-icon-picker/animated": {
+    "type": "boolean",
+    "description": "Turns on animation"
+  },
+  "q-icon-picker/transition-prev": {
+    "type": "string",
+    "description": "When animated property is true, transition to use for previous paginated view"
+  },
+  "q-icon-picker/transition-next": {
+    "type": "string",
+    "description": "When animated property is true, transition to use for next paginated view"
+  }
+}
