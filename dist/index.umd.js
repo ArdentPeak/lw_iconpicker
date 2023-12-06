@@ -1,5 +1,5 @@
 /*!
- * @quasar/quasar-ui-qiconpicker v2.0.7
+ * @quasar/quasar-ui-qiconpicker v2.0.9
  * (c) 2023 Jeff Galbraith <jeff@quasar.dev>
  * Released under the MIT License.
  */
@@ -552,7 +552,7 @@
     }
   });
 
-  const version = '2.0.7';
+  const version = '2.0.9';
 
   function install (app) {
     app.component(QIconPicker.name, QIconPicker);
