@@ -9,7 +9,7 @@ export interface QIconPicker extends ComponentPublicInstance {
     /**
      * The name of a [Quasar Icon Set](https://quasar.dev/options/quasar-icon-sets)
      */
-    iconSet? : 'material-icons' | 'material-icons-outlined' | 'material-icons-round' | 'material-icons-sharp' | 'ionicons-v4' | 'mdi-v4' | 'mdi-v5' | 'mdi-v6' | 'fontawesome-v5' | 'line-awesome' | 'eva-icons' | 'themify' | 'bootstrap-icons'
+    iconSet? : 'material-icons' | 'material-icons-outlined' | 'material-icons-round' | 'material-icons-sharp' | 'ionicons-v4' | 'mdi-v4' | 'mdi-v5' | 'mdi-v6' | 'fontawesome-v5' | 'fontawesome-v6-light-sharp' | 'line-awesome' | 'eva-icons' | 'themify' | 'bootstrap-icons'
     /**
      * An array of objects containing icon information. The object must contain the key `name` with the value being the icon name (ie: `{ name: 'bolt' }`). _**Note:** the icons used must already be loaded by Quasar._
      */
