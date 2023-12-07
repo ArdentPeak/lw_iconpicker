@@ -18,7 +18,7 @@ const useIconPickerProps = {
       'mdi-v5',
       'mdi-v6',
       'fontawesome-v5',
-      'fontawesome-v6-light-sharp',
+      'fontawesome-v6-light',
       'eva-icons',
       'themify',
       'line-awesome',

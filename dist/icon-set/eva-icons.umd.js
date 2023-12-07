@@ -1,5 +1,5 @@
 /*!
- * lw_iconpicker v2.0.11
+ * lw_iconpicker v2.0.12
  * (c) 2023 Jeff Galbraith <jeff@quasar.dev>
  * Released under the MIT License.
  */

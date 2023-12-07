@@ -1,5 +1,5 @@
 /*!
- * lw_iconpicker v2.0.11
+ * lw_iconpicker v2.0.12
  * (c) 2023 Jeff Galbraith <jeff@quasar.dev>
  * Released under the MIT License.
  */
@@ -24,7 +24,7 @@ const useIconPickerProps = {
       'mdi-v5',
       'mdi-v6',
       'fontawesome-v5',
-      'fontawesome-v6-light-sharp',
+      'fontawesome-v6-light',
       'eva-icons',
       'themify',
       'line-awesome',
@@ -550,7 +550,7 @@ var QIconPicker = defineComponent({
   }
 });
 
-const version = '2.0.11';
+const version = '2.0.12';
 
 function install (app) {
   app.component(QIconPicker.name, QIconPicker);
